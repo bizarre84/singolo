@@ -1,27 +1,7 @@
-@font-face {
-  font-family: LatoLight300;
-  font-weight: 300;
-  src: url(assets/fonts/Lato-Light.ttf);
-}
-@font-face {
-  font-family: LatoRegular400;
-  font-weight: 400;
-  src: url(assets/fonts/Lato-Regular.ttf);
-}
-@font-face {
-  font-family: LatoBold700;
-  font-weight: 700;
-  src: url(assets/fonts/Lato-Bold.ttf);
-}
-@font-face {
-  font-family: LatoBlack900;
-  font-weight: 900;
-  src: url(assets/fonts/Lato-Black.ttf);
-}
 body {
   font-family: 'LatoRegular400', sans-serif;
 }
-.header, .slider {
+.header, .slider, .services {
   max-width: 1020px;
 }
 .wrapper{
@@ -30,6 +10,9 @@ body {
 }
 .header {
   background-color: #2d303a;
+  border-bottom: #323746;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
 }
 .header__navigation {
   height: 89px;
@@ -58,13 +41,68 @@ body {
   color: #ffffff;
   padding-left: 13px;
 }
-.navigation li:not(:first-child):before{
+.navigation li:not(:first-child):before {
   content: '·';
   margin-right: 12px;
-
-
 }
-.navigation li:first-child {
-  color: #f06c64;
-
+.navigation__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.slider {
+  height: 594px;
+  background-color: #f06c64;
+  border-bottom: #ea676b;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
+}
+.sliders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 53px;
+}
+.chevron{
+  color: #ca4549;
+  font-size: 31px;
+}
+.slide_one img{
+  padding-right: 20px;
+}
+.services{
+  background-color: #f2f2f2;
+  color: #666d89;
+  border-bottom: #ffffff;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
+}
+.services-header{
+  font-family: 'LatoBlack900', sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  padding-top: 62px;
+}
+.services-text{
+  font-family: 'LatoLight300', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15124px;
+  padding-top: 21px;
+}
+.layout-3{
+  display: flex;
+  flex-wrap: wrap;
+}
+.service{
+  padding-top: 46px;
+  flex-grow: 1;
+  width: 33%;
+}
+.service-img{
+  display: inline-block;
+  width: 61px;
+}
+.service-text-block{
+  display: inline-block;
+  width: 240px;
 }
