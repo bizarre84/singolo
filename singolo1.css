@@ -49,6 +49,9 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+.navigation__link:hover, .current_page {
+  color: #f06c64;
+}
 .slider {
   height: 594px;
   background-color: #f06c64;
@@ -62,9 +65,12 @@ body {
   align-items: center;
   padding-top: 53px;
 }
-.chevron{
+.chevron {
   color: #ca4549;
   font-size: 31px;
+}
+.chevron:hover{
+  color: #9b373a;
 }
 .slide_one img{
   padding-right: 20px;
