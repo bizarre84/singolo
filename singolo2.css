@@ -1,0 +1,135 @@
+body {
+  font-family: 'LatoRegular400', sans-serif;
+}
+h2{
+  font-family: 'LatoBlack900', sans-serif;
+  font-size: 30px;
+}
+h3{
+  font-family: 'LatoBlack900', sans-serif;
+  font-size: 18px;
+}
+p{
+  
+}
+.portfolio, .about-us {
+  max-width: 1020px;
+}
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.portfolio{
+  background-color: #2d303a;
+  padding-top: 62.5px;
+  border-bottom: #323746;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
+}
+.portfolio__header{
+  color: #666d89;
+  margin: 0 10px 27px 10px;
+}
+.portfolio__text{
+  font-family: 'LatoLight300', sans-serif;
+  font-size: 18px;
+  color: #767e9e;
+  margin: 0 10px 19px 10px;
+}
+.portfolio__tags{
+  margin: 0 10px 13px 10px;
+}
+.tag{
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2.5px 6.35px;
+  margin: 0 3px;
+}
+.tag:first-child{
+  margin-left: 0px;
+}
+.tag_selected{
+  color: #dedede;
+  border-color: #dedede;
+}
+.tag_bordered{
+  color: #767e9e;
+  border-color: #767e9e;
+}
+.layout-4-column{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 57px;
+}
+.portfolio__project{
+  margin: 10px 10px 8px 10px;
+  width:220px;
+  height:189px;
+}
+.portfolio__project:nth-child(n+13){
+  display: none;
+}
+.about-us{
+  background-color: #f2f2f2;
+  border-bottom: #ffffff;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
+}
+.about__header{
+  color: #666d89;
+  padding: 62px 10px 0 10px;
+}
+.about__text{
+  font-family: 'LatoLight300', sans-serif;
+  font-size: 18px;
+  color: #767e9e;
+  margin: 21px 10px 0 10px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.layout-3-column{
+  display: flex;
+  flex-wrap: wrap;
+}
+.employee{
+  width:300px;
+  margin: 0 10px;
+}
+.employee__name{
+  color: #666d89;
+  padding: 15px 0 11px 0;
+  letter-spacing: -0.5px;
+  word-spacing: 2.5px;
+}
+.employee__text{
+  font-family: 'LatoRegular400;', sans-serif;
+  font-size: 12px;
+  line-height: 21.56px;
+  color: #767e9e;
+  letter-spacing: -0.05px;
+  text-align: justify;
+}
+.social__item{
+  display: inline-flex;
+  flex-direction: row;
+  margin: 23px 5px 67px 0;
+}
+.social__icon{
+  width: 32px;
+  height: 32px;
+}
+.facebook{
+  background-image: url(assets/img/about-us/facebook.png);
+}
+.google{
+  background-image: url(assets/img/about-us/google.png);
+}
+.twitter{
+  background-image: url(assets/img/about-us/twitter.png);
+}
+.linkedin{
+  background-image: url(assets/img/about-us/linkedin.png);
+}
