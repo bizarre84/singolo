@@ -1,0 +1,103 @@
+body {
+  font-family: 'LatoRegular400', sans-serif;
+}
+.feedback, footer {
+  max-width: 1020px;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.feedback {
+  background-color: #f06c64;
+  padding-top: 42px;
+}
+.feedback__header {
+  color: #f0d8d9;
+  font-family: 'LatoBlack900', sans-serif;
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.feedback__text {
+  color: #f0d8d9;
+  font-family: 'LatoLight300' sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.219px;
+  text-align: justify;
+  margin: 21px 10px;
+}
+.feedback__form-wrapper {
+  display: flex;
+}
+.feedback__form{
+  width: 640px;
+}
+.feedback__form form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  padding-top: 15px;
+}
+.feedback__form input, .feedback__form textarea {
+  background-color: #d6564f;
+  color: #f48c8f;
+  border: none;
+  font-size: 12px;
+  line-height: 14.56px;
+  border-radius: 5px;
+  padding: 12px 15px;
+  margin: 8px 0;
+}
+.feedback__form input::placeholder, .feedback__form textarea::placeholder{
+  color: #f48c8f;
+}
+.feedback__form textarea {
+  resize: none;
+  padding: 10px 15px;
+}
+.feedback__contact-information {
+  width: 320px;
+  margin: 10px 0;
+}
+.contact-information__header {
+  margin: 13px 0 6px 10px;
+  font-family: 'LatoBlack900', sans-serif;
+  font-size: 18px;
+  color: #f0d8d9;
+}
+.contact-information__text {
+  color: #f0d8d9;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 10px 0 12px 10px;
+  text-align: justify;
+  word-break: break-word;
+}
+.contact-information__detail{
+  margin: 0 13px;
+  color: #f0d8d9;
+  font-size: 12px;
+}
+.contact-information__detail a {
+  color: #f0d8d9;
+  text-decoration: none;
+}
+.contact-information__detail a:hover {
+  color: #ccb7b8;
+}
+.icon-feedback{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.icon-location {
+  background-image: url(assets/img/icon/location.png);
+}
+.icon-phone {
+  background-image: url(assets/img/icon/phone.png);
+}
+.icon-mail {
+  background-image: url(assets/img/icon/mail.png);
+}
