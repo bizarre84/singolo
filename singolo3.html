@@ -23,30 +23,32 @@
             <input type="email" name="email" id="email" placeholder="Email (Required)" required>
             <input type="text" name="subject" id="subject" placeholder="Subject">
             <textarea name="detail" id="detail" cols="30" rows="13" placeholder="Describe your project in detail..."></textarea>
-            <input type="submit" value="Submit">
+            <input class="button-submit" type="submit" value="Submit">
           </form>
         </div>
         <div class="feedback__contact-information">
           <h3 class="contact-information__header">Contact Information</h3>
           <p class="contact-information__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
           <ul class="contact-information__detail">
-            <li><i class="icon-feedback icon-location"></i>Elm St. 14/05 Lost City</li>
-            <li><i class="icon-feedback icon-phone"></i><a href="tel:035283318635">03528 331 86 35</a></li>
-            <li><i class="icon-feedback icon-mail"></i><a href="mailto:info@singolo.com">info@singolo.com</a></li>
+            <li><i class="icon-feedback icon-location"></i><span class="text-location">Elm St. 14/05 Lost City</span></li>
+            <li><i class="icon-feedback icon-phone"></i><a class="text-phone" href="tel:035283318635">03528 331 86 35</a></li>
+            <li><i class="icon-feedback icon-mail"></i><a class="text-mail" href="mailto:info@singolo.com">info@singolo.com</a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
   <footer>
-    <div class="footer__copyright">
-      <p class="copyright__text">&copy; Copyright 2013</p>
-    </div>
-    <div class="footer__socials">
-      <span class="social__item"><i class="social__icon facebook"></i></span>
-      <span class="social__item"><i class="social__icon google"></i></span>
-      <span class="social__item"><i class="social__icon twitter"></i></span>
-      <span class="social__item"><i class="social__icon linkedin"></i></span>
+    <div class="wrapper footer-wrap">
+      <div class="footer__copyright">
+        <p class="copyright__text">&copy; Copyright 2013</p>
+      </div>
+      <div class="footer__socials">
+        <a href="#facebook"><span href="#"><span class="social__item"><i class="social__icon facebook"></i></span></a>
+        <a href="#google"><span class="social__item"><i class="social__icon google"></i></span></a>
+        <a href="#twitter"><span class="social__item"><i class="social__icon twitter"></i></span></a>
+        <a href="#linkedin"><span class="social__item"><i class="social__icon linkedin"></i></span></a>
+      </div>
     </div>
   </footer>
 </body>

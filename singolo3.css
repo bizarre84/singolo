@@ -11,6 +11,9 @@ body {
 .feedback {
   background-color: #f06c64;
   padding-top: 42px;
+  border-bottom: #ea676b;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
 }
 .feedback__header {
   color: #f0d8d9;
@@ -29,6 +32,7 @@ body {
 }
 .feedback__form-wrapper {
   display: flex;
+  padding-bottom: 5px;
 }
 .feedback__form{
   width: 640px;
@@ -56,6 +60,12 @@ body {
   resize: none;
   padding: 10px 15px;
 }
+.button-submit:hover {
+  color: #ccb7b8;
+  border-style: solid;
+  border-color: #ee4348;
+  border-width: 1px;
+}
 .feedback__contact-information {
   width: 320px;
   margin: 10px 0;
@@ -74,10 +84,14 @@ body {
   text-align: justify;
   word-break: break-word;
 }
-.contact-information__detail{
+.contact-information__detail {
   margin: 0 13px;
   color: #f0d8d9;
   font-size: 12px;
+  padding-top: 8px;
+}
+.contact-information__detail li {
+  margin: 4px 0;
 }
 .contact-information__detail a {
   color: #f0d8d9;
@@ -94,10 +108,68 @@ body {
 }
 .icon-location {
   background-image: url(assets/img/icon/location.png);
+  position: relative;
+  top: -1px;
 }
 .icon-phone {
   background-image: url(assets/img/icon/phone.png);
+  position: relative;
+  top: -1px;
+  left: -2px;
 }
 .icon-mail {
   background-image: url(assets/img/icon/mail.png);
+  position: relative;
+  top: 5px;
+  left: -3px;
+}
+.text-location {
+  vertical-align: super;
+  margin-left: 7px;
+}
+.text-phone {
+  vertical-align: super;
+  margin-left: 7px;
+}
+.text-mail {
+  margin-left: 7px;
+}
+footer {
+  background-color: #2d303a;
+}
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.copyright__text {
+  color: #666d89;
+  padding-top: 31px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.footer__socials {
+  margin-right: 5px;
+  margin-top: -1px;
+}
+.social__item{
+  display: inline-flex;
+  flex-direction: row;
+  margin: 23px 5px 67px 0;
+}
+.social__icon{
+  width: 32px;
+  height: 32px;
+}
+.facebook{
+  background-image: url(assets/img/icon/facebook.png);
+}
+.google{
+  background-image: url(assets/img/icon/google.png);
+}
+.twitter{
+  background-image: url(assets/img/icon/twitter.png);
+}
+.linkedin{
+  background-image: url(assets/img/icon/linkedin.png);
 }
