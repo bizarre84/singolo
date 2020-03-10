@@ -1,0 +1,1 @@
+[https://bizarre84.github.io/singolo/](https://bizarre84.github.io/singolo/)
